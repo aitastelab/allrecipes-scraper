@@ -1,0 +1,30 @@
+{
+  "name": "allrecipes-scraper",
+  "version": "1.0.0",
+  "bin": "allrecipes_scraper_app_updated.js",
+  "scripts": {
+    "start": "node allrecipes_scraper_app_updated.js"
+  },
+  "pkg": {
+    "assets": [
+      "node_modules/axios/**/*",
+      "node_modules/cheerio/**/*",
+      "node_modules/cli-progress/**/*",
+      "node_modules/commander/**/*",
+      "node_modules/p-limit/**/*",
+      "node_modules/proxy-agent/**/*"
+    ],
+    "targets": [
+      "node18-win-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "cli-progress": "^3.10.0",
+    "commander": "^11.1.0",
+    "p-limit": "^4.0.0",
+    "proxy-agent": "^6.3.0"
+  }
+}
